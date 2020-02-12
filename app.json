@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "World Time",
+    "slug": "worldTimeZone",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/iconT.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bebo.worldtime"
+    },
+    "android":  {
+      "package": "com.bebo.worldtime",
+      "icon": "./assets/iconT.png",
+      "permissions":[]
+    }
+    
+  }
+}
